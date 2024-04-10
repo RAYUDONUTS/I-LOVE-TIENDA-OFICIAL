@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/tienda.css">
+    <link rel="icon" href="img/fondo2.png"type="image/png">
+    <title>Tienda Ilove.Donas</title>
+</head>
+<body>
+    
+<nav class="barra-navegacion"> 
+            <ul> 
+                <li><a href="#">Inicio</a></li> 
+                <li><a href="nosotros.html">Nosotros</a></li> 
+                <li><a href="Tienda.html">Tienda</a></li> 
+                <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+           </nav>
+    <header>
+    <a href="index.html" class="regre">Regresar</a>
+    <a href="index.html" class="inicioo">Inicio</a>
+     <a href="Tienda.html"><h1 id="tienda-texto">Tienda <span id="ilove-texto">Ilove.Donas</span></h1></a>
+        <input type="text" id="searchInput" placeholder="Buscar sabor Donas...">
+    </header>
+
+
+<!-- PRODUCTOS INICIÓ -->
+
+    <section class="products" id="allProducts">
+        
+        
+        <!-- Producto 1 -->
+        
+        <div class="product" id="dona1" data-product-id="Número de producto no modificar #1010">
+    <img src="img/chocolate.jpg" alt="Dona de Chocolate">
+    <h2 class="flavor">CHOCOLATE</h2>
+    <p class="description">Dona de chocolate con glaseado indulgente.</p>
+    <button class="orderButton" onclick="showOrderOptions(this)">Pedir Ahora</button>
+    <!-- Opciones de pedido ocultas inicialmente -->
+    <div class="orderOptions" style="display: none;">
+        <button class="whatsappButton" data-whatsapp="+56953552725" onclick="orderViaWhatsApp(this)">Pedir por WhatsApp</button>
+        <button class="messengerButton" data-messenger="#" onclick="orderViaMessenger(this)">Pedir por Messenger</button>
+    </div>
+</div>
+
+
+  <!-- PRODUCTO 2 -->
+       <div class="product" id="dona2">
+    <img src="img/Fresa-glaciado.jpg" alt="Dona de Chocolate">
+    <h2 class="flavor">Chocolate</h2>
+    <p class="description">Dona de chocolate con glaseado indulgente.</p>
+
+    <button class="orderButton" onclick="showOrderOptions(this)">Pedir Ahora</button>
+
+    <!-- Opciones de pedido ocultas inicialmente -->
+    <div class="orderOptions" style="display: none;">
+        <button class="whatsappButton" data-whatsapp="953552725" onclick="orderViaWhatsApp(this)">Pedir por WhatsApp</button>
+        <button class="messengerButton" data-messenger="#" onclick="orderViaMessenger(this)">Pedir por Messenger</button>
+    </div>
+</div>
+   <!-- PRODUCTO 3 -->
+   
+   
+<div class="product" id="dona3">
+    <img src="img/Leche-glaceado.jpg" alt="Dona de Chocolate">
+    <h2 class="flavor">Chocolate</h2>
+    <p class="description">Dona de chocolate con glaseado indulgente.</p>
+
+    <button class="orderButton" onclick="showOrderOptions(this)">Pedir Ahora</button>
+
+    <!-- Opciones de pedido ocultas inicialmente -->
+    <div class="orderOptions" style="display: none;">
+        <button class="whatsappButton" data-whatsapp="953552725" onclick="orderViaWhatsApp(this)">Pedir por WhatsApp</button>
+        <button class="messengerButton" data-messenger="#" onclick="orderViaMessenger(this)">Pedir por Messenger</button>
+    </div>
+</div>
+
+
+ <div class="product" id="dona4">
+    <img src="img/chocolate-glaceado.jpg" alt="Dona de Chocolate">
+    <h2 class="flavor">Chocolate</h2>
+    <p class="description">Dona de chocolate con glaseado indulgente.</p>
+
+    <button class="orderButton" onclick="showOrderOptions(this)">Pedir Ahora</button>
+
+    <!-- Opciones de pedido ocultas inicialmente -->
+    <div class="orderOptions" style="display: none;">
+        <button class="whatsappButton" data-whatsapp="953552725" onclick="orderViaWhatsApp(this)">Pedir por WhatsApp</button>
+        <button class="messengerButton" data-messenger="#" onclick="orderViaMessenger(this)">Pedir por Messenger</button>
+    </div>
+</div>
+
+<div class="product" id="dona5">
+    <img src="img/fresa.crema.jpg" alt="Dona de Chocolate">
+    <h2 class="flavor">Chocolate</h2>
+    <p class="description">Dona de chocolate con glaseado indulgente.</p>
+
+    <button class="orderButton" onclick="showOrderOptions(this)">Pedir Ahora</button>
+
+    <!-- Opciones de pedido ocultas inicialmente -->
+    <div class="orderOptions" style="display: none;">
+        <button class="whatsappButton" data-whatsapp="953552725" onclick="orderViaWhatsApp(this)">Pedir por WhatsApp</button>
+        <button class="messengerButton" data-messenger="#" onclick="orderViaMessenger(this)">Pedir por Messenger</button>
+    </div>
+</div>
+
+<div class="product" id="dona6">
+    <img src="img/regalo1.jpg" alt="Dona de Chocolate">
+    <h2 class="flavor">Chocolate</h2>
+    <p class="description">Dona de chocolate con glaseado indulgente.</p>
+
+    <button class="orderButton" onclick="showOrderOptions(this)">Pedir Ahora</button>
+
+    <!-- Opciones de pedido ocultas inicialmente -->
+    <div class="orderOptions" style="display: none;">
+        <button class="whatsappButton" data-whatsapp="953552725" onclick="orderViaWhatsApp(this)">Pedir por WhatsApp</button>
+        <button class="messengerButton" data-messenger="#" onclick="orderViaMessenger(this)">Pedir por Messenger</button>
+    </div>
+</div>
+
+<div class="product" id="dona7">
+    <img src="img/chocolate.glaceado1.jpg" alt="Dona de Chocolate">
+    <h2 class="flavor">Chocolate</h2>
+    <p class="description">Dona de chocolate con glaseado indulgente.</p>
+
+    <button class="orderButton" onclick="showOrderOptions(this)">Pedir Ahora</button>
+
+    <!-- Opciones de pedido ocultas inicialmente -->
+    <div class="orderOptions" style="display: none;">
+        <button class="whatsappButton" data-whatsapp="953552725" onclick="orderViaWhatsApp(this)">Pedir por WhatsApp</button>
+        <button class="messengerButton" data-messenger="#" onclick="orderViaMessenger(this)">Pedir por Messenger</button>
+    </div>
+</div>
+
+
+<div class="product" id="dona8">
+    <img src="img/1.jpg" alt="Dona de Chocolate">
+    <h2 class="flavor">Menta</h2>
+    <p class="description">Dona de chocolate con glaseado indulgente.</p>
+
+    <button class="orderButton" onclick="showOrderOptions(this)">Pedir Ahora</button>
+
+    <!-- Opciones de pedido ocultas inicialmente -->
+    <div class="orderOptions" style="display: none;">
+        <button class="whatsappButton" data-whatsapp="953552725" onclick="orderViaWhatsApp(this)">Pedir por WhatsApp</button>
+        <button class="messengerButton" data-messenger="#" onclick="orderViaMessenger(this)">Pedir por Messenger</button>
+    </div>
+</div>
+
+
+<div class="product" id="dona9">
+    <img src="img/leche ychoco.jpg" alt="Dona de Chocolate">
+    <h2 class="flavor">Chocolate</h2>
+    <p class="description">Dona de chocolate con glaseado indulgente.</p>
+
+    <button class="orderButton" onclick="showOrderOptions(this)">Pedir Ahora</button>
+
+    <!-- Opciones de pedido ocultas inicialmente -->
+    <div class="orderOptions" style="display: none;">
+        <button class="whatsappButton" data-whatsapp="953552725" onclick="orderViaWhatsApp(this)">Pedir por WhatsApp</button>
+        <button class="messengerButton" data-messenger="#" onclick="orderViaMessenger(this)">Pedir por Messenger</button>
+    </div>
+</div>
+
+
+
+<div class="product" id="dona11">
+    <img src="img/regalo1 (2).jpg" alt="Dona de Chocolate">
+    <h2 class="flavor">Chocolate</h2>
+    <p class="description">Dona de chocolate con glaseado indulgente.</p>
+
+    <button class="orderButton" onclick="showOrderOptions(this)">Pedir Ahora</button>
+
+    <!-- Opciones de pedido ocultas inicialmente -->
+    <div class="orderOptions" style="display: none;">
+        <button class="whatsappButton" data-whatsapp="953552725" onclick="orderViaWhatsApp(this)">Pedir por WhatsApp</button>
+        <button class="messengerButton" data-messenger="#" onclick="orderViaMessenger(this)">Pedir por Messenger</button>
+    </div>
+</div>
+
+
+
+<div class="product" id="dona12">
+    <img src="img/Personaliza.jpg" alt="Dona de Chocolate">
+    <h2 class="flavor">Chocolate</h2>
+    <p class="description">Dona de chocolate con glaseado indulgente.</p>
+
+    <button class="orderButton" onclick="showOrderOptions(this)">Pedir Ahora</button>
+
+    <!-- Opciones de pedido ocultas inicialmente -->
+    <div class="orderOptions" style="display: none;">
+        <button class="whatsappButton" data-whatsapp="953552725" onclick="orderViaWhatsApp(this)">Pedir por WhatsApp</button>
+        <button class="messengerButton" data-messenger="#" onclick="orderViaMessenger(this)">Pedir por Messenger</button>
+    </div>
+</div>
+
+
+
+
+<div class="product" id="dona13">
+    <img src="img/Persona.jpg" alt="Dona de Chocolate">
+    <h2 class="flavor">Chocolate</h2>
+    <p class="description">Dona de chocolate con glaseado indulgente.</p>
+
+    <button class="orderButton" onclick="showOrderOptions(this)">Pedir Ahora</button>
+
+    <!-- Opciones de pedido ocultas inicialmente -->
+    <div class="orderOptions" style="display: none;">
+        <button class="whatsappButton" data-whatsapp="953552725" onclick="orderViaWhatsApp(this)">Pedir por WhatsApp</button>
+        <button class="messengerButton" data-messenger="#" onclick="orderViaMessenger(this)">Pedir por Messenger</button>
+    </div>
+</div>
+
+
+
+<div class="product" id="dona14">
+    <img src="img/huevo 1.jpg" alt="Dona de Chocolate">
+    <h2 class="flavor">Chocolate</h2>
+    <p class="description">Dona de chocolate con glaseado indulgente.</p>
+
+    <button class="orderButton" onclick="showOrderOptions(this)">Pedir Ahora</button>
+
+    <!-- Opciones de pedido ocultas inicialmente -->
+    <div class="orderOptions" style="display: none;">
+        <button class="whatsappButton" data-whatsapp="953552725" onclick="orderViaWhatsApp(this)">Pedir por WhatsApp</button>
+        <button class="messengerButton" data-messenger="#" onclick="orderViaMessenger(this)">Pedir por Messenger</button>
+    </div>
+</div>
+
+
+
+
+ <div class="product" id="dona15">
+    <img src="img/pascua.jpg" alt="Dona de Chocolate">
+    <h2 class="flavor">Chocolate</h2>
+    <p class="description">Dona de chocolate con glaseado indulgente.</p>
+
+    <button class="orderButton" onclick="showOrderOptions(this)">Pedir Ahora</button>
+
+    <!-- Opciones de pedido ocultas inicialmente -->
+    <div class="orderOptions" style="display: none;">
+        <button class="whatsappButton" data-whatsapp="953552725" onclick="orderViaWhatsApp(this)">Pedir por WhatsApp</button>
+        <button class="messengerButton" data-messenger="#" onclick="orderViaMessenger(this)">Pedir por Messenger</button>
+    </div>
+</div>   
+
+<div class="product" id="dona16">
+    <img src="img/Navidad1.jpg" alt="Dona de Chocolate">
+    <h2 class="flavor">Chocolate</h2>
+    <p class="description">Dona de chocolate con glaseado indulgente.</p>
+
+    <button class="orderButton" onclick="showOrderOptions(this)">Pedir Ahora</button>
+
+    <!-- Opciones de pedido ocultas inicialmente -->
+    <div class="orderOptions" style="display: none;">
+        <button class="whatsappButton" data-whatsapp="953552725" onclick="orderViaWhatsApp(this)">Pedir por WhatsApp</button>
+        <button class="messengerButton" data-messenger="#" onclick="orderViaMessenger(this)">Pedir por Messenger</button>
+    </div>
+</div>   
+    <!-- Añade más productos según sea necesario -->
+    </section>
+    
+    
+  <!-- FIN DE PRODUCTOS -->  
+  <footer id="pie-pagina">
+       <h3>
+           Ilove.Donas &COPY Copyright 2024
+       </h3>
+       <a href="atributos/privacidad.html" id="termi-fo">Bajo Términos y condiciones</a>
+    <nav id="nav-footer">
+       <a href="index.html">Inicio</a>
+       <a href="nosotros.html">Nosotros</a>
+       <a href="Tienda.html">Tienda</a>
+       <a href="contacto.html">Contacto</a>
+       
+       </nav>
+       
+       
+       <ul>
+           <h6>Seguimos en nuestras redes sociales </h6>
+         <a href="#">Instagram</a>
+         <a href="#">Facebook</a>
+         <a href="#">Tik tok</a>
+         <a href="#">Telegram</a>
+       </ul>
+       
+       <div class="contacto-footer">
+           <h4>Contactanos</h4>
+           <a href="#">999 678 887</a>
+           <a href="#">WhatsApp</a>
+           <a href="#">Messenger</a>
+           <a href="#">Gmail</a>
+           <a href="#">Instagram</a>
+       </div>
+   
+   <h3><a href="atributos/privacidad.html">Términos y condiciones</a></h3>
+       <h1>Todos los derechos reservados 2024-ILOVE.DONAS</h1>
+       <span class="sanitario">En nuestra tienda, nos comprometemos a ofrecer productos de alta calidad y cumplir con todas las normativas y regulaciones de seguridad de Chile. Trabajamos bajo las leyes del Ministerio de Salud y el Instituto de Salud Pública para garantizar la integridad de nuestros productos. Además, nos esforzamos por proteger los derechos de nuestros clientes y cumplir con los estándares éticos y de consumo. Puedes confiar en que nuestros productos cumplen con las normas establecidas, brindándote una experiencia segura y satisfactoria.</span>
+       
+   </footer>  
+    
+    
+    <script src="js/filtro.js"></script>
+    <script src="js/pedir.js"></script>
+</body>
+</html>
